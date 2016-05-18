@@ -1,7 +1,7 @@
 var convertUpper = function(port) {
-  var http = require('http');
+    var http = require('http');
   
-  var server = http.createServer(function(request, response) {
+    var server = http.createServer(function(request, response) {
     var Readable = require('stream').Readable;
     var stream = new Readable();
     var pushData = [];
